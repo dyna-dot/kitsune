@@ -1617,14 +1617,14 @@ dateformat@^1.0.7-1.2.3:
     get-stdin "^4.0.1"
     meow "^3.3.0"
 
-debowerify@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/debowerify/-/debowerify-1.2.0.tgz#15fa5555d599865469d30e047321cffdfaa32e1c"
-  integrity sha1-FfpVVdWZhlRp0w4EcyHP/fqjLhw=
+debowerify@1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/debowerify/-/debowerify-1.5.0.tgz#0813bd5b8fee8f5fb77ebafd62e2979a17dcdaff"
+  integrity sha1-CBO9W4/uj1+3frr9YuKXmhfc2v8=
   dependencies:
     bower "~1.3.12"
-    esprima "^1.2.2"
-    ordered-ast-traverse "^0.1.1"
+    esprima "^2.0.0"
+    ordered-ast-traverse "^1.1.1"
     through "~2.3.4"
 
 debug@2.0.0:
@@ -2130,12 +2130,7 @@ esprima-fb@~15001.1001.0-dev-harmony-fb:
   resolved "https://registry.yarnpkg.com/esprima-fb/-/esprima-fb-15001.1001.0-dev-harmony-fb.tgz#43beb57ec26e8cf237d3dd8b33e42533577f2659"
   integrity sha1-Q761fsJujPI3092LM+QlM1d/Jlk=
 
-esprima@^1.2.2:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/esprima/-/esprima-1.2.5.tgz#0993502feaf668138325756f30f9a51feeec11e9"
-  integrity sha1-CZNQL+r2aBODJXVvMPmlH+7sEek=
-
-esprima@^2.6.0:
+esprima@^2.0.0, esprima@^2.6.0:
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-2.7.3.tgz#96e3b70d5779f6ad49cd032673d1c312767ba581"
   integrity sha1-luO3DVd59q1JzQMmc9HDEnZ7pYE=
@@ -4839,17 +4834,17 @@ orchestrator@^0.3.0:
     sequencify "~0.0.7"
     stream-consume "~0.1.0"
 
-ordered-ast-traverse@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/ordered-ast-traverse/-/ordered-ast-traverse-0.1.1.tgz#fd258b70bb169a3818784398bf7abce42ae37d56"
-  integrity sha1-/SWLcLsWmjgYeEOYv3q85CrjfVY=
+ordered-ast-traverse@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/ordered-ast-traverse/-/ordered-ast-traverse-1.1.1.tgz#6843a170bc0eee8b520cc8ddc1ddd3aa30fa057c"
+  integrity sha1-aEOhcLwO7otSDMjdwd3TqjD6BXw=
   dependencies:
-    ordered-esprima-props "~1.0.0"
+    ordered-esprima-props "~1.1.0"
 
-ordered-esprima-props@~1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/ordered-esprima-props/-/ordered-esprima-props-1.0.0.tgz#0c7cce28ab92b9351b3a281806d674bea3443a2e"
-  integrity sha1-DHzOKKuSuTUbOigYBtZ0vqNEOi4=
+ordered-esprima-props@~1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/ordered-esprima-props/-/ordered-esprima-props-1.1.0.tgz#a9827086df5f010aa60e9bd02b6e0335cea2ffcb"
+  integrity sha1-qYJwht9fAQqmDpvQK24DNc6i/8s=
 
 ordered-read-streams@^0.1.0:
   version "0.1.0"
